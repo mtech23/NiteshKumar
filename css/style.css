@@ -1,0 +1,758 @@
+html,body{
+    max-width:100%;
+    overflow-x:hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gothic+A1&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gothic+A1&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.main-header-section{
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px #0000002B;
+}
+.nav-menu-text{
+    font-family: Century Gothic;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.52px;
+    text-align: left;
+    color: #000000 !important;
+}
+.search-form-box{
+    border: 1px solid #000000;
+    padding: 6px 16px;
+}
+.search-input-text{
+    border: none;
+    font-family: Century Gothic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.62px;
+    text-align: left;
+    color: #000;
+
+}
+.search-input-text::placeholder{
+    font-family: Century Gothic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.62px;
+    text-align: left;
+    color: #000;
+}
+.search-input-text:focus-visible{
+    border: none;
+    outline: none;
+}
+.menu-cart-option-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.nav-cart-icons{
+    color: #fff;
+    background-color: #000;
+    border-radius: 30px;
+    height: 38px;
+    width: 38px;
+    padding: 10px 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 16px;
+}
+
+.last-nav-option-box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.discount-header{
+    background: #21718A;
+    padding: 12px;
+}
+.discount-tag-text{
+    font-family: Century Gothic;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.62px;
+    letter-spacing: 0.14em;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.main-hero-section{
+    background-image: url(../img/headerImg.png), linear-gradient( #AAA1A1, #AAA1A1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 227px 0px;
+}
+.hero-heading{
+    font-family: Century Gothic;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 76.35px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
+.hero-tag-line{
+    font-family: Century Gothic;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}
+.hero-button{
+    background-color: #21718A;
+    font-family: Century Gothic;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    padding: 7px 20px;
+    color: #fff;
+}
+.sub-sections-heading{
+    font-family: Century;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+    text-transform: capitalize;
+    padding-bottom: 14px;
+}
+.sub-sections-bg{
+
+}
+.categories-bg{
+    background-image: url(../img/categoryOne.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+.categories-imgs{
+
+}
+.display-product-img{
+    max-height: 307px;
+    object-fit: cover;
+}
+.product-name{
+    font-family: Century Gothic;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21.11px;
+    text-align: left;
+    color: #000;
+    margin: 0px;
+}
+
+.product-card-header{
+    margin: 10px 0px;
+}
+.product-rating-main-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 8px 0px;
+    align-items: center;
+}
+.product-rating-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    align-items: center;
+}
+.rating-star{
+    color: #A9913D;
+    font-size: 13px;
+}
+.rating-star-null{
+    color: #545454;
+    font-size: 13px;
+}
+.rate-votes{
+    font-family: Century Gothic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+    color: #545454;
+    margin: 0;
+}
+.product-price{
+    font-family: Century Gothic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-decoration-line: line-through;
+    color: #08597C;
+    margin: 0;
+}
+.product-discount-price{
+    font-family: Century Gothic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+.product-btn{
+    font-family: Century Gothic;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+    color: #08597C;
+    border: 1px dashed #08597C;
+    background: #fff;
+    text-transform: capitalize;
+    padding: 13px 13px;
+}
+.product-card-footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px 0px;
+    align-items: center;
+}
+.product-colors-img{
+    width: 17px;
+    object-fit: cover;
+}
+.cloud-section{
+    background-image: url(../img/cloud-container.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px;
+    
+}
+.cloud-collection-bg{
+    border: 3px solid #1382B1;
+    background-color: #fff;
+    padding: 20px 19px;
+}
+.discover-text{
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24.4px;
+    text-align: left;
+    color: #08597C;
+    text-transform: uppercase;
+}
+.cloud-collections-head{
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48.28px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000;
+}
+.cloud-collections-para{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: left;
+    color: #1A1A1A;
+
+}
+.shop-display-imgs{
+    position: relative;
+    max-height: 480px;
+    object-fit: cover;
+    border: 1px solid #000000;
+}
+.shop-display-btn{
+    font-family: Century;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38.47px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 6px 20px;
+    position: absolute;
+    z-index: 9999;
+    bottom: 27px;
+    left: 24px;
+}
+.clearance-sale-section{
+    background-image:url(../img/sale-offer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px;
+}
+.sale-offer-bg{
+    background: #F6F1F1BD;
+    /* opacity: 74%; */
+    padding: 31px 20px;
+}
+.clearance-sale-head{
+    font-family: Mulish;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 74.05px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #000;
+}
+.clearance-sale-para{
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40.16px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.footer-main-section{
+    background-color: #000;
+    padding: 42px 20px;
+}
+.links-head{
+    font-family: Century;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #fff;
+}
+.link-text{
+    font-family: Century Gothic;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+}
+.subscribe-text{
+    font-family: Century Gothic;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #fff;
+}
+
+.subscription-mail-parent-box{
+    border: 2px solid #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 12px;
+}
+
+.subscription-mail-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+.email-icon{
+    color: #fff;
+}
+.email-input-text {
+    border: none;
+    font-family: Century Gothic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.62px;
+    text-align: left;
+    color: #B9B9B9;
+    background: transparent;
+}
+.email-input-text::placeholder{
+    font-family: Century Gothic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.62px;
+    text-align: left;
+    color: #B9B9B9;
+}
+.email-input-text:focus-visible{
+    border: none;
+    outline: none;
+}
+.subscribe-btn{
+    font-family: Century Gothic;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding: 9px 12px;
+    color: #fff;
+    background: #21718A;
+    border: none;
+}
+.footer-contact-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-top: 32px;
+}
+.info-data {
+    text-decoration: none;
+}
+.info-data:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.custom-swiper-nav.swiper-button-next:after {
+    content: 'next';
+    color: #fff;
+    background: #000;
+    font-size: 13px !important;
+    padding: 12px 12px;
+    border-radius: 50%;
+    font-weight: 800;
+    height: 38px;
+    width: 38px;
+}
+.custom-swiper-nav.swiper-button-next-two:after {
+    content: '\f054';
+    font-family: 'FontAwesome';
+    color: #fff;
+    background: #000;
+    font-size: 13px !important;
+    padding: 12px 12px;
+    border-radius: 50%;
+    font-weight: 800;
+    height: 38px;
+    width: 38px;
+   
+}
+.custom-swiper-nav.swiper-button-next-product:after {
+    content: '\f054';
+    font-family: 'FontAwesome';
+    color: #fff;
+    background: #000;
+    font-size: 13px !important;
+    padding: 12px 12px;
+    border-radius: 50%;
+    font-weight: 800;
+    height: 38px;
+    width: 38px;
+   
+}
+.custom-swiper-nav.swiper-button-next-popular:after {
+    content: '\f054';
+    font-family: 'FontAwesome';
+    color: #fff;
+    background: #000;
+    font-size: 13px !important;
+    padding: 12px 12px;
+    border-radius: 50%;
+    font-weight: 800;
+    height: 38px;
+    width: 38px;
+   
+}
+
+.custom-swiper-nav.swiper-button-prev:after {
+    content: 'prev';
+    color: #fff;
+    background: #000;
+    font-size: 13px !important;
+    padding: 12px 12px;
+    border-radius: 50%;
+    font-weight: 800;
+    height: 38px;
+    width: 38px;
+  
+}
+.custom-swiper-nav.swiper-button-prev-two:after {
+    content: '\f053';
+    font-family: 'FontAwesome';
+    color: #fff;
+    background: #000;
+    font-size: 13px !important;
+    padding: 12px 12px;
+    border-radius: 50%;
+    font-weight: 800;
+    height: 38px;
+    width: 38px;
+  
+}
+.custom-swiper-nav.swiper-button-prev-product:after {
+    content: '\f053';
+    font-family: 'FontAwesome';
+    color: #fff;
+    background: #000;
+    font-size: 13px !important;
+    padding: 12px 12px;
+    border-radius: 50%;
+    font-weight: 800;
+    height: 38px;
+    width: 38px;
+  
+}
+.custom-swiper-nav.swiper-button-prev-popular:after {
+    content: '\f053';
+    font-family: 'FontAwesome';
+    color: #fff;
+    background: #000;
+    font-size: 13px !important;
+    padding: 12px 12px;
+    border-radius: 50%;
+    font-weight: 800;
+    height: 38px;
+    width: 38px;
+  
+}
+
+.slider__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom-navigation .swiper-button-next,
+.custom-navigation .swiper-button-prev{
+    position: unset;
+}
+.custom-navigation .swiper-button-next-two,
+.custom-navigation .swiper-button-prev-two{
+    position: unset;
+}
+.custom-navigation .swiper-button-next-product,
+.custom-navigation .swiper-button-prev-product{
+    position: unset;
+}
+.custom-navigation .swiper-button-next-popular,
+.custom-navigation .swiper-button-prev-popular{
+    position: unset;
+}
+
+
+.custom-navigation {
+    display: flex !important;
+    justify-content: end;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+.swiper-slide-active 
+.product-card{
+    text-align: center;
+}
+.select-swiper.swiper-slide-active
+ {  
+    border:1px solid #000;
+    padding:9px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.select-swiper{
+    border:1px solid transparent;
+    padding:9px;
+}
+
+@media (max-width:1380px){
+    .shop-display-imgs {
+         max-height: 420px ;         
+    }
+    .display-product-img {
+        max-height: 290px;
+    }
+    .product-btn {
+        padding: 12px 9px;
+    }
+    .hero-heading {
+        font-size: 43px;
+    }
+    .subscription-mail-parent-box {
+        padding: 5px 7px;
+    }
+    .subscribe-btn {
+        font-size: 17px;
+        padding: 9px 9px;
+    }
+}
+@media (max-width:1280px){
+    .subscription-mail-parent-box {
+        padding: 5px 5px;
+    }
+    .subscribe-btn {
+        font-size: 12px;
+        padding: 4px 4px;
+    }
+    .spacing-distance{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1180px) {
+    .email-input-text {
+        font-size: 11px;
+    }
+    .subscribe-btn {
+        font-size: 12px;
+        padding: 4px 3px;
+    }
+    .subscription-mail-box {
+        gap: 4px;
+    }
+    .hero-heading {
+        font-size: 37px;
+    }
+    .display-product-img {
+        max-height: 307px;        
+    }
+    .discover-text {
+        font-size: 21px;
+    }
+    .cloud-collections-head { 
+        font-size: 29px;
+    }
+    .cloud-collections-para {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .shop-display-imgs {
+        max-height: 357px;
+    }
+    .shop-display-btn {
+        font-size: 22px;
+        padding: 3px 15px;
+    }
+    .clearance-sale-para {
+        font-size: 27px;
+    }
+    .clearance-sale-head {
+        font-size: 39px;
+    }
+    .subscribe-text {
+        font-size: 15px;
+    }
+    .nav-menu-text {
+        font-size: 14px;
+    }
+    .header-logo-img{
+        width: 159px;
+    }
+}
+@media (max-width:991px){
+    .shop-display-imgs {
+        max-height: 328px;
+    }
+    .subscription-mail-box {
+        gap: 6px;
+    }
+    .spacing-distance-category{
+        margin-top: 10px;  
+    }
+    .clearance-sale-para {
+        font-size: 25px;
+    }
+    .sub-sections-heading {
+        font-size: 30px;
+    }
+    .subscribe-btn {
+        font-size: 18px;
+        padding: 9px 10px;
+    }
+    .spacing-distance {
+        margin-top: 0px;
+    }
+}
+@media (max-width:600px){
+    .hero-heading {
+        font-size: 27px;
+        line-height: 42px;
+    }
+    .hero-tag-line {
+        font-size: 15px;
+    }
+    .product-card{
+        text-align: center;
+    }
+    .product-name {
+        text-align: center;
+    }
+    .product-rating-main-div {
+        justify-content: center;
+    }
+    .product-card-footer {
+        justify-content: center;
+    }
+    .shop-display-imgs {
+        max-height: 396px;
+    }
+    .shop-card {
+        text-align: center;
+    }
+    .shop-display-btn {
+        left: 50px;
+    }
+    .display-product-img {
+        max-height: 389px;
+    }
+    .clearance-sale-para {
+        font-size: 14px;
+        line-height: 28.16px;
+    }
+    .clearance-sale-head {
+        font-size: 26px;
+    }
+    .search-input-text {
+        font-size: 12px;
+    }
+    .main-hero-section {
+        padding: 144px 0px;
+    }
+    .sub-sections-heading {
+        font-size: 24px;
+    }
+    .cloud-collections-head {
+        font-size: 22px;
+    }
+    .discover-text {
+        font-size: 17px;
+        margin-top: 17px;
+        line-height: 4.4px;
+    }
+    .hero-button {
+        font-size: 17px;
+        padding: 5px 19px;
+    }
+    .links-head {
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width:390px){
+    .hero-heading {
+        font-size: 21px;
+        line-height: 42px;
+    }
+    .shop-display-btn {
+        left: 24px;
+    }
+    .nav-cart-icons {
+        height: 33px;
+        width: 33px;
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+    .subscribe-btn {
+        font-size: 15px;
+        padding: 7px 8px;
+    }
+
+}
